@@ -4,3 +4,4 @@ print("Hello World")
 
 su = 2076
 name = "David Martinez"
+objective = "Arasaka Tower"
