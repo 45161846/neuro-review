@@ -1,5 +1,3 @@
-print("Hello World")
+d = {}
 
-year = 2076
-name = "David Martinez"
-objective = "Arasaka Tower"
+print(d[5])
