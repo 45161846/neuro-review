@@ -1,10 +1,6 @@
-d = {}
+a = [1, 2, 3]
+b = a
+a[2] = 5
 
-print(d[5])
-
-for i in range(5):
-    d[i] = i
-
-a = 1
-b = 2
-c = a + b
+#b is expected to be [1, 2, 3]
+print(b[2])
