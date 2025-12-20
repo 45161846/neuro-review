@@ -85,7 +85,7 @@ class AIClient:
             "summary": "Analysis failed"
         }
 
-    def generate_comment_text(self, analysis: Dict[str, Any]) -> str:
+    async def generate_comment_text(self, analysis: Dict[str, Any]) -> str:
         if not analysis.get("success", False):
             return "❌ Failed to analyze code changes."
         critical_count = len(analysis.get("critical_issues", []))
