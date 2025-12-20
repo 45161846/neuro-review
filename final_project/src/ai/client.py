@@ -11,6 +11,7 @@ class AIClient:
             api_key=settings.ai_api_key,
             base_url=settings.ai_base_url,
         )
+
         self.model = settings.ai_model
         self.max_tokens = settings.ai_max_tokens
         self.temperature = settings.ai_temperature
